@@ -7,7 +7,6 @@ const Navbar = () => {
   useEffect(() => {
      setpathname(window.location.pathname) ;
   }, [pathname])
-  console.log(pathname);
   return (
     <div className='Navbar'>
         <ul>
