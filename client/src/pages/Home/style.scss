@@ -1,0 +1,74 @@
+@import "../../assets/fonts/fonts.scss";
+.main {
+  background-image: url("./img/bg.jpeg");
+  background-color: #000000c4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-blend-mode: darken; 
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+  overflow: hidden;/* veya diğer uygun karışım modu */
+}
+.main::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(-225deg, #0669ad, #01071647, #d279519c);
+}
+.roundedbg{
+    position: absolute;
+    height: 80%;
+    border-radius: 0px 0px 30% 30%;
+    z-index: 10;
+    width: 100%;
+    background-color: #0000002f;
+}
+.container {
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  & .image {
+    height: 100vh;
+    width: 50%;
+    position: relative;
+      & img{
+        height: 100%;
+    }
+  }
+  & .texts {
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    & .name {
+      font-family: EXO-BOLD;
+      font-size: 42px;
+      color: #ffffff;
+      line-height: 59px;
+    }
+    & .speciality {
+    font-family: EXO-BOLD;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      color: #db8d76;
+    }
+    & .about {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 500;
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.SocialNetworks{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    &Img{
+        border: 2px solid #0669AD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: #0669AD;
+        padding: 8px;
+        border-radius: 25px;
+        transition: 0.3s;
+        cursor: pointer;
+        position: relative;
+        &:hover{
+            background-color: #066aadab;
+        }
+    }
+}
