@@ -31,3 +31,15 @@
     }
   }
 }
+.active{
+  &::before{
+    content: "";
+    position: absolute;
+    background-color: #DB8D76;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+ }
+}
