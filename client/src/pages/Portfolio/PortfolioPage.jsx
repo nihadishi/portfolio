@@ -3,7 +3,7 @@ import Header from '../../components/header/Header'
 
 const PortfolioPage = () => {
   return (
-    <div><Header/>ASa</div>
+    <div><Header/></div>
   )
 }
 
