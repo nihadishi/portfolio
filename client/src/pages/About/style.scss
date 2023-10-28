@@ -1,16 +1,16 @@
 @import "../../assets/fonts/fonts.scss";
-.AboutMain {
+.About {
   padding: 128px 128px 0px 128px;
   min-height: 100vh;
   width: 100%;
-  background-image: url("./img/bg.jpeg");
+  background-image: url("../../assets/imgs/bg.jpeg");
   background-color: #000000c4;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
   position: relative;
 }
-.About {
+.AboutMain {
   width: 100%;
   height: 100%;
   min-height: 30vh;
@@ -129,7 +129,7 @@
     }
   }
 }
-.AboutMain::before {
+.About::before {
   content: "";
   display: block;
   position: absolute;
